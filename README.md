@@ -3,5 +3,5 @@
 
 How to flash onto nrf52832:
 
-cd firmware
+cd firmware  
 ./flash.sh
