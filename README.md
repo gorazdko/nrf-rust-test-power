@@ -1,0 +1,1 @@
+# nrf-rust-test-power
