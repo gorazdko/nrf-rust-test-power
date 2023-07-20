@@ -64,7 +64,7 @@ async fn main(spawner: Spawner) {
 
 
     // hw specific
-    let mut board = Board::init(p);
+    //let mut board = Board::init(p);
     // turn off P0.17 (LED1) with PULL_DOWNs. Necessary for MTK, otherwise the LED will glow
     //board.led1.set_low();
 
@@ -78,7 +78,7 @@ async fn main(spawner: Spawner) {
 
     
     loop { 
-        Timer::after(Duration::from_millis(1_000_000)).await;
+        Timer::after(Duration::from_millis(1_000)).await;
     }
 }
 
