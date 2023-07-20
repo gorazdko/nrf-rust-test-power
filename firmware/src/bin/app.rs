@@ -68,7 +68,7 @@ async fn main(spawner: Spawner) {
     // turn off P0.17 (LED1) with PULL_DOWNs. Necessary for MTK, otherwise the LED will glow
     //board.led1.set_low();
 
-    Timer::after(Duration::from_millis(1_000_000)).await;
+    //Timer::after(Duration::from_millis(1_000_000)).await;
 
     // Enable SoftDevice
     let sd = nrf_softdevice::Softdevice::enable(&softdevice_config());
