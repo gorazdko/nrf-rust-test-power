@@ -19,7 +19,7 @@ DEFMT_LOG=off cargo objcopy --bin app  --release --no-default-features --feature
 
 # merge secure bootloader, its settings, softdevice and application
 # mergehex --merge EDH_BleBootSDK15.hex settings.hex  s132_nrf52_7.3.0_softdevice.hex  app.hex --output complete.hex
-mergehex --merge s132_nrf52_6.1.1_softdevice.hex  app.hex --output complete.hex
+mergehex --merge s132_nrf52_7.3.0_softdevice.hex  app.hex --output complete.hex
 
 
 # program the whole hex
